@@ -1,0 +1,969 @@
+ 2019-07-20 12:21:34,300 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:21:34,731 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4fbc2c6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:21:35,753 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:21:37,548 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'httpSessionManager' defined in class path resource [com/chengym/active/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=httpSessionManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/chengym/active/SecurityConfig.class]] for bean 'httpSessionManager': There is already [Generic bean: class [org.keycloak.adapters.springsecurity.management.HttpSessionManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/E:/package/repository/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/4.6.0.Final/8a42a701686abd300fd73288f1e1ce9807a95dd1/keycloak-spring-security-adapter-4.6.0.Final.jar!/org/keycloak/adapters/springsecurity/management/HttpSessionManager.class]] bound.
+ 2019-07-20 12:21:37,555 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 135] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ 2019-07-20 12:21:37,641 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java : 40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'httpSessionManager', defined in class path resource [com/chengym/active/SecurityConfig.class], could not be registered. A bean with that name has already been defined in URL [jar:file:/E:/package/repository/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/4.6.0.Final/8a42a701686abd300fd73288f1e1ce9807a95dd1/keycloak-spring-security-adapter-4.6.0.Final.jar!/org/keycloak/adapters/springsecurity/management/HttpSessionManager.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+ 2019-07-20 12:24:04,066 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:24:04,693 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9dee1c1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:24:06,420 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:24:09,143 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'httpSessionManager' defined in class path resource [com/chengym/active/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=httpSessionManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/chengym/active/SecurityConfig.class]] for bean 'httpSessionManager': There is already [Generic bean: class [org.keycloak.adapters.springsecurity.management.HttpSessionManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/E:/package/repository/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/4.6.0.Final/8a42a701686abd300fd73288f1e1ce9807a95dd1/keycloak-spring-security-adapter-4.6.0.Final.jar!/org/keycloak/adapters/springsecurity/management/HttpSessionManager.class]] bound.
+ 2019-07-20 12:24:09,154 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 135] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ 2019-07-20 12:24:09,170 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java : 40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'httpSessionManager', defined in class path resource [com/chengym/active/SecurityConfig.class], could not be registered. A bean with that name has already been defined in URL [jar:file:/E:/package/repository/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/4.6.0.Final/8a42a701686abd300fd73288f1e1ce9807a95dd1/keycloak-spring-security-adapter-4.6.0.Final.jar!/org/keycloak/adapters/springsecurity/management/HttpSessionManager.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+ 2019-07-20 12:26:22,757 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:26:23,144 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5088d94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:26:24,086 ERROR [restartedMain] o.s.boot.SpringApplication [SpringApplication.java : 821] Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:524)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:473)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:425)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader$$Lambda$99/308281812.accept(Unknown Source)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:425)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader$$Lambda$98/1124257887.accept(Unknown Source)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:422)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:321)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:202)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:186)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:176)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:164)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.chengym.active.ActiveApplication.main(ActiveApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 12, column 3:
+      profiles:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 24, column 4:
+       main:
+       ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:572)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:160)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:134)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:49)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:542)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:497)
+	... 30 common frames omitted
+ 2019-07-20 12:27:39,617 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:27:40,180 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1a228dc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:27:41,425 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:27:43,175 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:27:43,180 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:27:43,250 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 45ms. Found 0 repository interfaces.
+ 2019-07-20 12:27:43,956 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=72bab14e-d193-38ad-9f49-916da032f428
+ 2019-07-20 12:27:44,058 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a2a04fc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:27:44,113 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:27:44,189 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe088ac3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:27:44,249 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1a228dc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:27:45,300 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:27:45,334 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:27:45,349 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:27:45,350 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:27:45,483 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:27:45,483 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 4023 ms
+ 2019-07-20 12:27:46,124 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:27:46,124 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:27:46,234 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ownRestTemplate': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucrm.userName' in value "${ucrm.userName}"
+ 2019-07-20 12:27:46,238 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+ 2019-07-20 12:27:46,278 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 135] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ 2019-07-20 12:27:46,306 ERROR [restartedMain] o.s.boot.SpringApplication [SpringApplication.java : 821] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ownRestTemplate': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucrm.userName' in value "${ucrm.userName}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$139/436860726.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.chengym.active.ActiveApplication.main(ActiveApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ucrm.userName' in value "${ucrm.userName}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$$Lambda$172/1583198767.resolveStringValue(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 23 common frames omitted
+ 2019-07-20 12:27:54,671 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:27:55,097 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fff62597] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:27:56,095 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:27:57,666 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:27:57,669 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:27:57,725 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+ 2019-07-20 12:27:58,346 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=72bab14e-d193-38ad-9f49-916da032f428
+ 2019-07-20 12:27:58,489 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8873e799] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:27:58,536 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:27:58,618 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e3dc229a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:27:58,665 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fff62597] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:27:59,666 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:27:59,692 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:27:59,709 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:27:59,710 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:27:59,825 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:27:59,825 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 3701 ms
+ 2019-07-20 12:28:00,352 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:28:00,352 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:28:00,457 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ownRestTemplate': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucrm.userName' in value "${ucrm.userName}"
+ 2019-07-20 12:28:00,461 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+ 2019-07-20 12:28:00,492 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 135] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ 2019-07-20 12:28:00,515 ERROR [restartedMain] o.s.boot.SpringApplication [SpringApplication.java : 821] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ownRestTemplate': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucrm.userName' in value "${ucrm.userName}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$138/2089812326.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.chengym.active.ActiveApplication.main(ActiveApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ucrm.userName' in value "${ucrm.userName}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$$Lambda$171/942854050.resolveStringValue(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 23 common frames omitted
+ 2019-07-20 12:28:50,429 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:28:50,807 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$901ac591] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:28:51,820 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:28:53,453 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:28:53,458 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:28:53,525 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+ 2019-07-20 12:28:54,227 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=72bab14e-d193-38ad-9f49-916da032f428
+ 2019-07-20 12:28:54,625 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$18988793] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:28:54,779 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:28:54,956 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7400c294] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:28:55,044 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$901ac591] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:28:56,484 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:28:56,512 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:28:56,526 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:28:56,527 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:28:56,627 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:28:56,628 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 4783 ms
+ 2019-07-20 12:28:57,121 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:28:57,122 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:28:57,828 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorCodeService' defined in file [E:\bbs\active\active\out\production\classes\com\chengym\active\common\exception\service\ErrorCodeService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorCodeMapper' defined in file [E:\bbs\active\active\out\production\classes\com\chengym\active\common\exception\dao\ErrorCodeMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+ 2019-07-20 12:28:57,853 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+ 2019-07-20 12:28:57,877 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 135] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ 2019-07-20 12:28:57,898 ERROR [restartedMain] o.s.boot.SpringApplication [SpringApplication.java : 821] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorCodeService' defined in file [E:\bbs\active\active\out\production\classes\com\chengym\active\common\exception\service\ErrorCodeService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorCodeMapper' defined in file [E:\bbs\active\active\out\production\classes\com\chengym\active\common\exception\dao\ErrorCodeMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$138/475126934.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.chengym.active.ActiveApplication.main(ActiveApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorCodeMapper' defined in file [E:\bbs\active\active\out\production\classes\com\chengym\active\common\exception\dao\ErrorCodeMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1515)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$138/475126934.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$138/475126934.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1500)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 52 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:573)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:616)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$a6d513c4.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$a6d513c4$$FastClassBySpringCGLIB$$1744407.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$a6d513c4.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 53 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:98)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:570)
+	... 66 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.pluginElement(XMLConfigBuilder.java:188)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:110)
+	... 68 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 70 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 72 common frames omitted
+ 2019-07-20 12:32:44,590 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:32:44,957 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$780c66d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:32:46,002 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:32:48,207 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:32:48,213 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:32:48,306 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 57ms. Found 0 repository interfaces.
+ 2019-07-20 12:32:48,784 WARN [restartedMain] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.chengym.active.**.dao]' package. Please check your configuration.
+ 2019-07-20 12:32:48,990 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=b9b5cb47-0e07-3d33-ae4a-fd84d3bcbdd2
+ 2019-07-20 12:32:49,127 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8a28d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:32:49,188 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:32:49,296 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5bf263d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:32:49,354 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$780c66d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:32:50,306 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:32:50,336 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:32:50,351 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:32:50,352 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:32:50,485 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:32:50,485 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 4454 ms
+ 2019-07-20 12:32:50,995 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:32:50,996 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:32:51,962 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configProperties': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'user-service-keycloak.authUrl' in value "${user-service-keycloak.authUrl}"
+ 2019-07-20 12:32:52,005 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+ 2019-07-20 12:32:52,037 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 135] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ 2019-07-20 12:32:52,065 ERROR [restartedMain] o.s.boot.SpringApplication [SpringApplication.java : 821] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configProperties': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'user-service-keycloak.authUrl' in value "${user-service-keycloak.authUrl}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$139/1058339138.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.chengym.active.ActiveApplication.main(ActiveApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'user-service-keycloak.authUrl' in value "${user-service-keycloak.authUrl}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$$Lambda$172/2121944916.resolveStringValue(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 23 common frames omitted
+ 2019-07-20 12:40:13,973 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:40:14,391 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$12c1cf1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:40:15,464 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:40:17,479 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:40:17,483 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:40:17,563 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 53ms. Found 0 repository interfaces.
+ 2019-07-20 12:40:17,940 WARN [restartedMain] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.chengym.active.**.dao]' package. Please check your configuration.
+ 2019-07-20 12:40:18,127 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=b9b5cb47-0e07-3d33-ae4a-fd84d3bcbdd2
+ 2019-07-20 12:40:18,227 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9b3f911e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:40:18,277 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:40:18,352 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6a7cc1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:40:18,401 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$12c1cf1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:40:19,489 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:40:19,520 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:40:19,533 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:40:19,534 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:40:19,725 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:40:19,726 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 4225 ms
+ 2019-07-20 12:40:20,343 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:40:20,344 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:40:21,696 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'keycloakUserService': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'user-service-keycloak.authUrl' in value "${user-service-keycloak.authUrl}"
+ 2019-07-20 12:40:21,738 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+ 2019-07-20 12:40:21,766 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 135] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ 2019-07-20 12:40:21,799 ERROR [restartedMain] o.s.boot.SpringApplication [SpringApplication.java : 821] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'keycloakUserService': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'user-service-keycloak.authUrl' in value "${user-service-keycloak.authUrl}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$139/1603365803.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.chengym.active.ActiveApplication.main(ActiveApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'user-service-keycloak.authUrl' in value "${user-service-keycloak.authUrl}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$$Lambda$172/417737092.resolveStringValue(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 23 common frames omitted
+ 2019-07-20 12:42:27,024 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:42:27,991 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dffc6b53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:42:30,573 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:42:34,498 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:42:34,508 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:42:34,618 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 71ms. Found 0 repository interfaces.
+ 2019-07-20 12:42:35,396 WARN [restartedMain] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.chengym.active.**.dao]' package. Please check your configuration.
+ 2019-07-20 12:42:35,736 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=b9b5cb47-0e07-3d33-ae4a-fd84d3bcbdd2
+ 2019-07-20 12:42:35,932 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$687a2d55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:42:36,065 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:42:36,197 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3e26856] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:42:36,302 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dffc6b53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:42:37,988 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:42:38,025 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:42:38,043 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:42:38,044 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:42:38,270 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:42:38,271 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 7627 ms
+ 2019-07-20 12:42:39,492 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:42:39,493 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:42:41,991 INFO [restartedMain] o.s.s.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ebb06b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@448c4abc, org.springframework.security.web.header.HeaderWriterFilter@7f2e79b0, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@40774bd1, org.springframework.security.web.authentication.logout.LogoutFilter@10a819ca, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@1d4c5598, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@106e4f5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@609102c9, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@32182ab6, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@6ba53923, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b82f5c9, org.springframework.security.web.session.SessionManagementFilter@224be19c, org.springframework.security.web.access.ExceptionTranslationFilter@69a25391, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3950eae4]
+ 2019-07-20 12:42:42,031 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:42:42,032 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:42:42,049 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:42:42,050 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:42:42,465 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+ 2019-07-20 12:42:43,193 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+ 2019-07-20 12:42:43,194 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+ 2019-07-20 12:42:43,237 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+ 2019-07-20 12:42:43,262 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 135] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ 2019-07-20 12:42:43,293 ERROR [restartedMain] o.s.boot.SpringApplication [SpringApplication.java : 821] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$139/818056242.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.chengym.active.ActiveApplication.main(ActiveApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 25 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:573)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:616)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f6b6b986.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f6b6b986$$FastClassBySpringCGLIB$$594e227.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f6b6b986.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 26 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:98)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:570)
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.pluginElement(XMLConfigBuilder.java:188)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:110)
+	... 41 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.inspur.bss.common.LogInterceptor'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.inspur.bss.common.LogInterceptor
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 45 common frames omitted
+ 2019-07-20 12:44:49,913 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:44:50,428 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$857391cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:44:51,597 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:44:53,186 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:44:53,190 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:44:53,253 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 45ms. Found 0 repository interfaces.
+ 2019-07-20 12:44:53,679 WARN [restartedMain] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.chengym.active.**.dao]' package. Please check your configuration.
+ 2019-07-20 12:44:53,906 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=b9b5cb47-0e07-3d33-ae4a-fd84d3bcbdd2
+ 2019-07-20 12:44:54,020 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$df153ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:44:54,071 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:44:54,140 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69598ecf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:44:54,177 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$857391cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:44:55,170 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:44:55,195 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:44:55,206 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:44:55,206 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:44:55,343 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:44:55,344 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 3715 ms
+ 2019-07-20 12:44:55,911 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:44:55,912 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:44:56,946 INFO [restartedMain] o.s.s.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56023d49, org.springframework.security.web.context.SecurityContextPersistenceFilter@27e6d4ee, org.springframework.security.web.header.HeaderWriterFilter@37e44b12, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@7715f48a, org.springframework.security.web.authentication.logout.LogoutFilter@13825cb4, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@3c20ca09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b102e37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29be1206, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@604dc4a4, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@3d4b2eca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f5b12fe, org.springframework.security.web.session.SessionManagementFilter@1587e602, org.springframework.security.web.access.ExceptionTranslationFilter@749f1cb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5decbe7b]
+ 2019-07-20 12:44:56,971 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:44:56,972 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:44:56,980 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:44:56,980 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:44:57,258 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+ 2019-07-20 12:44:58,326 WARN [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration [FreeMarkerAutoConfiguration.java : 67] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+ 2019-07-20 12:44:58,435 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskScheduler'
+ 2019-07-20 12:44:58,590 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+ 2019-07-20 12:45:00,577 INFO [restartedMain] o.s.c.n.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+ 2019-07-20 12:45:00,665 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+ 2019-07-20 12:45:00,766 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+ 2019-07-20 12:45:00,767 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+ 2019-07-20 12:45:01,015 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+ 2019-07-20 12:45:01,016 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+ 2019-07-20 12:45:01,434 INFO [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+ 2019-07-20 12:45:01,941 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+ 2019-07-20 12:45:01,941 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+ 2019-07-20 12:45:01,942 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+ 2019-07-20 12:45:01,942 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+ 2019-07-20 12:45:01,943 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+ 2019-07-20 12:45:01,943 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+ 2019-07-20 12:45:01,943 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+ 2019-07-20 12:45:02,696 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+ 2019-07-20 12:45:02,699 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+ 2019-07-20 12:45:02,703 INFO [restartedMain] c.n.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+ 2019-07-20 12:45:02,712 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1563597902709 with initial instances count: 0
+ 2019-07-20 12:45:02,716 INFO [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application CHENGYM-ACTIVE with eureka with status UP
+ 2019-07-20 12:45:02,718 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1563597902718, current=UP, previous=STARTING]
+ 2019-07-20 12:45:02,722 INFO [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_CHENGYM-ACTIVE/chengym00.home.langchao.com:chengym-active:8762: registering service...
+ 2019-07-20 12:45:02,744 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:45:02,814 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 202] Tomcat started on port(s): 8762 (http) with context path ''
+ 2019-07-20 12:45:02,816 INFO [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8762
+ 2019-07-20 12:45:02,823 INFO [restartedMain] com.chengym.active.ActiveApplication [StartupInfoLogger.java : 59] Started ActiveApplication in 14.81 seconds (JVM running for 17.974)
+ 2019-07-20 12:45:04,072 INFO [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_CHENGYM-ACTIVE/chengym00.home.langchao.com:chengym-active:8762 - registration status: 204
+ 2019-07-20 12:45:32,699 INFO [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+ 2019-07-20 12:45:32,700 INFO [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+ 2019-07-20 12:45:32,700 INFO [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+ 2019-07-20 12:45:32,700 INFO [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+ 2019-07-20 12:45:32,701 INFO [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+ 2019-07-20 12:45:32,701 INFO [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: false
+ 2019-07-20 12:45:32,701 INFO [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+ 2019-07-20 12:45:32,833 INFO [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+ 2019-07-20 12:46:33,395 INFO [http-nio-8762-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2019-07-20 12:46:33,395 INFO [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+ 2019-07-20 12:46:33,415 INFO [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 19 ms
+ 2019-07-20 12:46:33,740 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:46:33,741 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:46:33,742 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:47:40,214 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:47:41,506 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$703e3f0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:47:43,342 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:47:45,373 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:47:45,377 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:47:45,460 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 57ms. Found 0 repository interfaces.
+ 2019-07-20 12:47:45,866 WARN [restartedMain] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.chengym.active.**.dao]' package. Please check your configuration.
+ 2019-07-20 12:47:46,040 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=b9b5cb47-0e07-3d33-ae4a-fd84d3bcbdd2
+ 2019-07-20 12:47:46,141 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f8bc0111] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:47:46,184 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:47:46,247 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54243c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:47:46,296 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$703e3f0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:47:47,143 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:47:47,167 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:47:47,178 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:47:47,179 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:47:47,299 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:47:47,300 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 3919 ms
+ 2019-07-20 12:47:47,825 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:47:47,825 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:47:49,105 INFO [restartedMain] o.s.s.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ecd3d, org.springframework.security.web.context.SecurityContextPersistenceFilter@72d7cd2a, org.springframework.security.web.header.HeaderWriterFilter@46997da5, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@27a98c39, org.springframework.security.web.authentication.logout.LogoutFilter@3e99ec7b, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@212589d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22258517, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@399c3946, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@3edf1e7f, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@7ba0e10e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51ca0fb9, org.springframework.security.web.session.SessionManagementFilter@4ed16ac9, org.springframework.security.web.access.ExceptionTranslationFilter@1e78b045, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cf341cb]
+ 2019-07-20 12:47:49,128 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:47:49,129 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:47:49,135 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:47:49,136 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:47:49,470 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+ 2019-07-20 12:47:50,549 WARN [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration [FreeMarkerAutoConfiguration.java : 67] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+ 2019-07-20 12:47:50,632 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskScheduler'
+ 2019-07-20 12:47:50,795 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+ 2019-07-20 12:47:52,735 INFO [restartedMain] o.s.c.n.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+ 2019-07-20 12:47:52,805 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+ 2019-07-20 12:47:52,893 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+ 2019-07-20 12:47:52,893 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+ 2019-07-20 12:47:53,154 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+ 2019-07-20 12:47:53,154 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+ 2019-07-20 12:47:53,529 INFO [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+ 2019-07-20 12:47:54,036 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+ 2019-07-20 12:47:54,037 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+ 2019-07-20 12:47:54,037 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+ 2019-07-20 12:47:54,037 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+ 2019-07-20 12:47:54,038 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+ 2019-07-20 12:47:54,038 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+ 2019-07-20 12:47:54,038 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+ 2019-07-20 12:47:54,385 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+ 2019-07-20 12:47:54,393 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+ 2019-07-20 12:47:54,403 INFO [restartedMain] c.n.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+ 2019-07-20 12:47:54,418 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1563598074415 with initial instances count: 1
+ 2019-07-20 12:47:54,425 INFO [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application CHENGYM-ACTIVE with eureka with status UP
+ 2019-07-20 12:47:54,425 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1563598074425, current=UP, previous=STARTING]
+ 2019-07-20 12:47:54,430 INFO [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_CHENGYM-ACTIVE/chengym00.home.langchao.com:chengym-active:8762: registering service...
+ 2019-07-20 12:47:54,459 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:47:54,531 INFO [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_CHENGYM-ACTIVE/chengym00.home.langchao.com:chengym-active:8762 - registration status: 204
+ 2019-07-20 12:47:54,540 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 202] Tomcat started on port(s): 8762 (http) with context path ''
+ 2019-07-20 12:47:54,542 INFO [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8762
+ 2019-07-20 12:47:54,546 INFO [restartedMain] com.chengym.active.ActiveApplication [StartupInfoLogger.java : 59] Started ActiveApplication in 16.823 seconds (JVM running for 19.797)
+ 2019-07-20 12:47:57,162 INFO [http-nio-8762-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2019-07-20 12:47:57,164 INFO [http-nio-8762-exec-2] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+ 2019-07-20 12:47:57,190 INFO [http-nio-8762-exec-2] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 26 ms
+ 2019-07-20 12:47:57,512 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:47:57,513 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :org.keycloak.representations.AccessToken@194acc2
+ 2019-07-20 12:47:57,514 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:47:57,515 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :org.keycloak.representations.AccessToken@194acc2
+ 2019-07-20 12:47:57,516 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:47:57,516 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :org.keycloak.representations.AccessToken@194acc2
+ 2019-07-20 12:49:18,575 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:49:18,977 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$56bc52af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:49:20,073 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:49:21,778 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:49:21,781 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:49:21,839 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+ 2019-07-20 12:49:22,204 WARN [restartedMain] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.chengym.active.**.dao]' package. Please check your configuration.
+ 2019-07-20 12:49:22,425 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=b9b5cb47-0e07-3d33-ae4a-fd84d3bcbdd2
+ 2019-07-20 12:49:22,584 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$df3a14b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:49:22,625 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:49:22,692 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3aa24fb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:49:22,728 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$56bc52af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:49:23,573 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:49:23,594 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:49:23,605 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:49:23,605 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:49:23,705 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:49:23,705 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 3603 ms
+ 2019-07-20 12:49:24,184 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:49:24,184 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:49:25,579 INFO [restartedMain] o.s.s.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11e553dd, org.springframework.security.web.context.SecurityContextPersistenceFilter@451862f5, org.springframework.security.web.header.HeaderWriterFilter@61f978e5, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@3fa567f7, org.springframework.security.web.authentication.logout.LogoutFilter@7afcf2ff, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@6151f408, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2988be75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@473a5f8f, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@1a3563c2, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@673fcc53, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eb48238, org.springframework.security.web.session.SessionManagementFilter@2505ada6, org.springframework.security.web.access.ExceptionTranslationFilter@41781c85, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47237a37]
+ 2019-07-20 12:49:25,614 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:49:25,614 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:49:25,621 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:49:25,622 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:49:25,885 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+ 2019-07-20 12:49:26,838 WARN [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration [FreeMarkerAutoConfiguration.java : 67] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+ 2019-07-20 12:49:26,909 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskScheduler'
+ 2019-07-20 12:49:27,050 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+ 2019-07-20 12:49:28,863 INFO [restartedMain] o.s.c.n.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+ 2019-07-20 12:49:28,931 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+ 2019-07-20 12:49:29,019 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+ 2019-07-20 12:49:29,020 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+ 2019-07-20 12:49:29,319 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+ 2019-07-20 12:49:29,321 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+ 2019-07-20 12:49:29,749 INFO [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+ 2019-07-20 12:49:30,365 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+ 2019-07-20 12:49:30,365 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+ 2019-07-20 12:49:30,366 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+ 2019-07-20 12:49:30,367 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+ 2019-07-20 12:49:30,367 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+ 2019-07-20 12:49:30,367 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+ 2019-07-20 12:49:30,368 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+ 2019-07-20 12:49:30,731 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+ 2019-07-20 12:49:30,737 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+ 2019-07-20 12:49:30,745 INFO [restartedMain] c.n.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+ 2019-07-20 12:49:30,758 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1563598170754 with initial instances count: 1
+ 2019-07-20 12:49:30,762 INFO [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application CHENGYM-ACTIVE with eureka with status UP
+ 2019-07-20 12:49:30,762 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1563598170762, current=UP, previous=STARTING]
+ 2019-07-20 12:49:30,767 INFO [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_CHENGYM-ACTIVE/chengym00.home.langchao.com:chengym-active:8762: registering service...
+ 2019-07-20 12:49:30,813 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:49:30,852 INFO [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_CHENGYM-ACTIVE/chengym00.home.langchao.com:chengym-active:8762 - registration status: 204
+ 2019-07-20 12:49:30,871 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 202] Tomcat started on port(s): 8762 (http) with context path ''
+ 2019-07-20 12:49:30,873 INFO [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8762
+ 2019-07-20 12:49:30,876 INFO [restartedMain] com.chengym.active.ActiveApplication [StartupInfoLogger.java : 59] Started ActiveApplication in 14.1 seconds (JVM running for 16.915)
+ 2019-07-20 12:49:58,356 INFO [http-nio-8762-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2019-07-20 12:49:58,357 INFO [http-nio-8762-exec-2] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+ 2019-07-20 12:49:58,389 INFO [http-nio-8762-exec-2] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 31 ms
+ 2019-07-20 12:49:58,686 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:49:58,687 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :{}
+ 2019-07-20 12:49:58,688 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:49:58,689 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :{}
+ 2019-07-20 12:49:58,689 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:49:58,689 INFO [http-nio-8762-exec-2] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :{}
+ 2019-07-20 12:53:05,984 ERROR [http-nio-8762-exec-5] o.k.a.BearerTokenRequestAuthenticator [BearerTokenRequestAuthenticator.java : 101] Failed to verify token
+org.keycloak.exceptions.TokenNotActiveException: Token is not active
+	at org.keycloak.TokenVerifier$2.test(TokenVerifier.java:84)
+	at org.keycloak.TokenVerifier.verify(TokenVerifier.java:373)
+	at org.keycloak.RSATokenVerifier.verify(RSATokenVerifier.java:89)
+	at org.keycloak.adapters.rotation.AdapterRSATokenVerifier.verifyToken(AdapterRSATokenVerifier.java:56)
+	at org.keycloak.adapters.rotation.AdapterRSATokenVerifier.verifyToken(AdapterRSATokenVerifier.java:37)
+	at org.keycloak.adapters.BearerTokenRequestAuthenticator.authenticateToken(BearerTokenRequestAuthenticator.java:99)
+	at org.keycloak.adapters.BearerTokenRequestAuthenticator.authenticate(BearerTokenRequestAuthenticator.java:84)
+	at org.keycloak.adapters.RequestAuthenticator.authenticate(RequestAuthenticator.java:68)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter.attemptAuthentication(KeycloakAuthenticationProcessingFilter.java:149)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter.doFilter(KeycloakPreAuthActionsFilter.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.keycloak.adapters.tomcat.AbstractAuthenticatedActionsValve.invoke(AbstractAuthenticatedActionsValve.java:67)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.keycloak.adapters.tomcat.AbstractKeycloakAuthenticatorValve.invoke(AbstractKeycloakAuthenticatorValve.java:181)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+ 2019-07-20 12:53:06,005 ERROR [http-nio-8762-exec-5] o.k.a.BearerTokenRequestAuthenticator [BearerTokenRequestAuthenticator.java : 101] Failed to verify token
+org.keycloak.exceptions.TokenNotActiveException: Token is not active
+	at org.keycloak.TokenVerifier$2.test(TokenVerifier.java:84)
+	at org.keycloak.TokenVerifier.verify(TokenVerifier.java:373)
+	at org.keycloak.RSATokenVerifier.verify(RSATokenVerifier.java:89)
+	at org.keycloak.adapters.rotation.AdapterRSATokenVerifier.verifyToken(AdapterRSATokenVerifier.java:56)
+	at org.keycloak.adapters.rotation.AdapterRSATokenVerifier.verifyToken(AdapterRSATokenVerifier.java:37)
+	at org.keycloak.adapters.BearerTokenRequestAuthenticator.authenticateToken(BearerTokenRequestAuthenticator.java:99)
+	at org.keycloak.adapters.BearerTokenRequestAuthenticator.authenticate(BearerTokenRequestAuthenticator.java:84)
+	at org.keycloak.adapters.RequestAuthenticator.authenticate(RequestAuthenticator.java:68)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter.attemptAuthentication(KeycloakAuthenticationProcessingFilter.java:149)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter.doFilter(KeycloakPreAuthActionsFilter.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+ 2019-07-20 12:53:15,712 INFO [http-nio-8762-exec-6] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:53:43,643 INFO [http-nio-8762-exec-6] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :{}
+ 2019-07-20 12:54:11,678 INFO [http-nio-8762-exec-7] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:54:44,409 INFO [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+ 2019-07-20 12:55:01,415 INFO [http-nio-8762-exec-7] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :{}
+ 2019-07-20 12:59:32,511 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-07-20 12:59:32,875 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$420a1c64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:59:33,921 INFO [restartedMain] com.chengym.active.ActiveApplication [SpringApplication.java : 650] The following profiles are active: prod
+ 2019-07-20 12:59:35,956 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019-07-20 12:59:35,959 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-07-20 12:59:36,021 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+ 2019-07-20 12:59:36,435 WARN [restartedMain] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.chengym.active.**.dao]' package. Please check your configuration.
+ 2019-07-20 12:59:36,620 INFO [restartedMain] o.s.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=b9b5cb47-0e07-3d33-ae4a-fd84d3bcbdd2
+ 2019-07-20 12:59:36,721 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ca87de66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:59:36,772 INFO [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java : 236] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2019-07-20 12:59:36,836 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25f01967] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:59:36,873 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$420a1c64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-07-20 12:59:37,734 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8762 (http)
+ 2019-07-20 12:59:37,758 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:59:37,769 INFO [restartedMain] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ 2019-07-20 12:59:37,770 INFO [restartedMain] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+ 2019-07-20 12:59:37,890 INFO [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ 2019-07-20 12:59:37,890 INFO [restartedMain] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 283] Root WebApplicationContext: initialization completed in 3941 ms
+ 2019-07-20 12:59:38,502 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+ 2019-07-20 12:59:38,503 INFO [restartedMain] o.s.b.web.servlet.RegistrationBean [RegistrationBean.java : 50] Filter keycloakPreAuthActionsFilter was not registered (disabled)
+ 2019-07-20 12:59:39,934 INFO [restartedMain] o.s.s.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ac13666, org.springframework.security.web.context.SecurityContextPersistenceFilter@68de9c95, org.springframework.security.web.header.HeaderWriterFilter@1384eb5b, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@5c903cdb, org.springframework.security.web.authentication.logout.LogoutFilter@58d757d6, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@10e8e0b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b22a4e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15eab006, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@2c56f1d2, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@f4190c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ff76e80, org.springframework.security.web.session.SessionManagementFilter@281c6c6e, org.springframework.security.web.access.ExceptionTranslationFilter@7256438f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c981383]
+ 2019-07-20 12:59:39,966 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:59:39,967 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:59:39,977 WARN [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+ 2019-07-20 12:59:39,977 INFO [restartedMain] c.n.c.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019-07-20 12:59:40,370 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+ 2019-07-20 12:59:41,597 WARN [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration [FreeMarkerAutoConfiguration.java : 67] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+ 2019-07-20 12:59:41,691 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskScheduler'
+ 2019-07-20 12:59:41,883 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+ 2019-07-20 12:59:43,770 INFO [restartedMain] o.s.c.n.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+ 2019-07-20 12:59:43,857 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+ 2019-07-20 12:59:43,955 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+ 2019-07-20 12:59:43,956 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+ 2019-07-20 12:59:44,232 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+ 2019-07-20 12:59:44,233 INFO [restartedMain] c.n.d.p.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+ 2019-07-20 12:59:44,609 INFO [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+ 2019-07-20 12:59:45,143 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+ 2019-07-20 12:59:45,143 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+ 2019-07-20 12:59:45,143 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+ 2019-07-20 12:59:45,143 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+ 2019-07-20 12:59:45,144 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+ 2019-07-20 12:59:45,144 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+ 2019-07-20 12:59:45,144 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+ 2019-07-20 12:59:45,545 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+ 2019-07-20 12:59:45,550 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+ 2019-07-20 12:59:45,555 INFO [restartedMain] c.n.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+ 2019-07-20 12:59:45,561 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1563598785560 with initial instances count: 1
+ 2019-07-20 12:59:45,565 INFO [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application CHENGYM-ACTIVE with eureka with status UP
+ 2019-07-20 12:59:45,565 INFO [restartedMain] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1563598785565, current=UP, previous=STARTING]
+ 2019-07-20 12:59:45,568 INFO [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_CHENGYM-ACTIVE/chengym00.home.langchao.com:chengym-active:8762: registering service...
+ 2019-07-20 12:59:45,590 INFO [restartedMain] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8762"]
+ 2019-07-20 12:59:45,635 INFO [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_CHENGYM-ACTIVE/chengym00.home.langchao.com:chengym-active:8762 - registration status: 204
+ 2019-07-20 12:59:45,658 INFO [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 202] Tomcat started on port(s): 8762 (http) with context path ''
+ 2019-07-20 12:59:45,659 INFO [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8762
+ 2019-07-20 12:59:45,662 INFO [restartedMain] com.chengym.active.ActiveApplication [StartupInfoLogger.java : 59] Started ActiveApplication in 14.919 seconds (JVM running for 17.805)
+ 2019-07-20 12:59:55,105 INFO [http-nio-8762-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2019-07-20 12:59:55,105 INFO [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+ 2019-07-20 12:59:55,123 INFO [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 17 ms
+ 2019-07-20 12:59:55,396 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:59:58,963 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :{}
+ 2019-07-20 12:59:58,965 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:59:58,967 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :{}
+ 2019-07-20 12:59:58,969 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 27] Class SecurityContextUtil get Authentication:8ab22dd8-9da7-44ed-881c-a3d9f0d8b696
+ 2019-07-20 12:59:58,971 INFO [http-nio-8762-exec-1] c.chengym.active.SecurityContextUtil [SecurityContextUtil.java : 35] token is :{}

@@ -1,0 +1,12 @@
+{
+  "realm": "active",
+  "auth-server-url": "http://192.168.153.171:8080/auth",
+  "ssl-required": "none",
+  "resource": "active-server",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "351856d5-322a-4667-804a-4f0153e382f4"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}

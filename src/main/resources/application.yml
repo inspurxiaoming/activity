@@ -1,0 +1,45 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.153.171:9390/eureka/
+  instance:
+    preferIpAddress: true
+server:
+  port: 8762
+  tomcat:
+    max-http-header-size: 8192
+spring:
+  profiles:
+    active: prod
+  application:
+    name: chengym-active
+  datasource:
+    url: jdbc:mysql://localhost:3306/active?useUnicode=true&characterEncoding=UTF8&connectTimeout=10000&socketTimeout=100000&allowMultiQueries=true&useSSL=false
+    username: root
+    password: mylove093196
+    driver-class-name: com.mysql.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 8MB
+  main:
+    allow-bean-definition-overriding: true
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  config-location: classpath:mybatis-config.xml
+keycloak:
+  enabled: true
+  disable-trust-manager: true
+  auth-server-url: http://192.168.153.171:8080/auth
+  realm: active
+  public-client: false
+  credentials:
+    secret: 351856d5-322a-4667-804a-4f0153e382f4
+  resource: active-server
+  ssl-required: none
+  cors: true
+  cors-allowed-headers: x-requested-with,Authorization,Content-Type
+  cors-allowed-methods: POST, GET, OPTIONS, DELETE, PUT, PATCH
+  cors-max-age: 3600
+  use-resource-role-mappings: true
+  confidential-port: 0
+
